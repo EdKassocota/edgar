@@ -33,7 +33,7 @@ export default function Navigation() {
     <header 
       className={`fixed z-50 transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
         isScrolled 
-          ? 'top-4 left-1/2 -translate-x-1/2 w-auto max-w-[90vw]'
+          ? 'top-4 left-1/2 -translate-x-1/2 min-w-max max-w-[95vw]'
           : 'top-0 left-0 right-0 w-full'
       }`}
     >
