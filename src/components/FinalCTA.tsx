@@ -43,14 +43,16 @@ export default function FinalCTA() {
           className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-16"
         >
           <a 
-            href={`mailto:${text.email}`}
+            href={`https://wa.me/244948729630`}
+            target="_blank"
+            rel="noopener noreferrer"
             className={`px-8 py-4 rounded-full font-medium transition-colors w-full sm:w-auto flex items-center justify-center space-x-2 ${
               isDark 
                 ? 'bg-neutral-100 text-neutral-900 hover:bg-neutral-200' 
                 : 'bg-neutral-900 text-neutral-50 hover:bg-neutral-800'
             }`}
           >
-            <Mail size={18} />
+            <Phone size={18} />
             <span>{text.primaryCTA}</span>
           </a>
         </motion.div>
